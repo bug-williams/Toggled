@@ -13,6 +13,7 @@
 		9BC71F5C262E0ABF00A8B9EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC71F5B262E0ABF00A8B9EC /* Preview Assets.xcassets */; };
 		9BC71F67262E0ABF00A8B9EC /* ToggledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC71F66262E0ABF00A8B9EC /* ToggledTests.swift */; };
 		9BC71F72262E0ABF00A8B9EC /* ToggledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC71F71262E0ABF00A8B9EC /* ToggledUITests.swift */; };
+		9BC71F83262E166900A8B9EC /* SwitchModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC71F82262E166900A8B9EC /* SwitchModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9BC71F6D262E0ABF00A8B9EC /* ToggledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC71F71262E0ABF00A8B9EC /* ToggledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggledUITests.swift; sourceTree = "<group>"; };
 		9BC71F73262E0ABF00A8B9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC71F82262E166900A8B9EC /* SwitchModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				9BC71F54262E0ABE00A8B9EC /* ToggledApp.swift */,
 				9BC71F56262E0ABE00A8B9EC /* ContentView.swift */,
+				9BC71F82262E166900A8B9EC /* SwitchModule.swift */,
 				9BC71F58262E0ABF00A8B9EC /* Assets.xcassets */,
 				9BC71F5D262E0ABF00A8B9EC /* Info.plist */,
 				9BC71F5A262E0ABF00A8B9EC /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC71F57262E0ABE00A8B9EC /* ContentView.swift in Sources */,
+				9BC71F83262E166900A8B9EC /* SwitchModule.swift in Sources */,
 				9BC71F55262E0ABE00A8B9EC /* ToggledApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
